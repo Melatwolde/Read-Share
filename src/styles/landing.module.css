@@ -1,0 +1,75 @@
+.image61Icon,
+.pathIcon {
+  height: 56.7px;
+  width: 491.3px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 140.3px;
+  left: 30px;
+  object-fit: contain;
+}
+.image61Icon {
+  height: 214.9px;
+  width: 217.7px;
+  bottom: -107.9px;
+  left: 9.7px;
+}
+.contactContentParent,
+.homePage,
+.pathParent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.pathParent {
+  width: 1393px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  position: relative;
+  max-width: 100%;
+}
+.contactContentParent,
+.homePage {
+  flex-direction: column;
+  align-items: flex-end;
+}
+.contactContentParent {
+  align-self: stretch;
+  height: 564px;
+  padding: 0 var(--padding-4xs) 472px;
+  gap: 54px;
+  max-width: 100%;
+}
+.homePage {
+  width: 100%;
+  position: relative;
+  background-color: var(--schemes-on-primary);
+  overflow: hidden;
+  padding: 14px 0 0;
+  gap: 209px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1100px) {
+  .contactContentParent {
+    height: auto;
+    padding-bottom: 307px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .contactContentParent {
+    gap: 27px;
+    padding-bottom: 200px;
+    box-sizing: border-box;
+  }
+  .homePage {
+    gap: 104px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .homePage {
+    gap: 52px;
+  }
+}

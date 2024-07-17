@@ -1,0 +1,102 @@
+.taylor1Icon {
+    width: 72px;
+    height: 68px;
+    position: relative;
+    border-radius: var(--br-xl);
+    object-fit: cover;
+  }
+  .taylor1Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs);
+  }
+  .fantasyClub {
+    position: relative;
+    font-weight: 600;
+  }
+  .members {
+    position: relative;
+    font-size: var(--authore-name-size);
+    display: inline-block;
+    min-width: 129px;
+  }
+  .fantasyClubParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-11xs);
+  }
+  .join1 {
+    position: relative;
+    font-size: var(--authore-name-size);
+    font-family: var(--authore-name);
+    color: var(--color-darkslategray-100);
+    text-align: left;
+    display: inline-block;
+    min-width: 32px;
+  }
+  .clubDetailsLayout,
+  .join {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .join {
+    cursor: pointer;
+    border: 1px solid var(--color-darkslategray-100);
+    padding: var(--padding-5xs) var(--padding-4xs);
+    background-color: transparent;
+    width: 52px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: var(--br-mini);
+    justify-content: center;
+  }
+  .join:hover {
+    background-color: var(--color-dimgray-300);
+    border: 1px solid var(--color-dimgray-100);
+    box-sizing: border-box;
+  }
+  .clubDetailsLayout {
+    flex: 1;
+    justify-content: space-between;
+    padding: var(--padding-xl) var(--padding-xs) var(--padding-xl) 0;
+    min-width: 164px;
+    gap: var(--gap-xl);
+  }
+  .groupsNameChild {
+    height: 45px;
+    width: 286px;
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    left: 91px;
+    z-index: 2;
+  }
+  .groupsName {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-smi) 0 0;
+    position: relative;
+    row-gap: 20px;
+    text-align: left;
+    font-size: var(--filter-textes-size);
+    color: var(--color-darkslategray-100);
+    font-family: var(--authore-name);
+  }
+  @media screen and (max-width: 450px) {
+    .fantasyClub {
+      font-size: var(--authore-name-size);
+    }
+    .clubDetailsLayout,
+    .groupsName {
+      flex-wrap: wrap;
+    }
+  }
+  

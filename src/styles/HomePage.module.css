@@ -1,0 +1,680 @@
+.vectorIcon {
+    height: 33.3px;
+    width: 33.3px;
+    position: relative;
+  }
+  .vectorWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-smi) 0 var(--padding-7xs);
+  }
+  .groupIcon {
+    padding-top: 10px;
+    height: 33.3px;
+    width: 30px;
+    /* position: relative; */
+  }
+  .groupWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+  }
+  .addIcon {
+    height: 35px;
+    width: 35px;
+    position: relative;
+  }
+  .addIconWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-2xs) 0 var(--padding-7xs);
+  }
+  .groupIcon1 {
+    height: 33.3px;
+    width: 33.3px;
+    position: relative;
+  }
+  .groupContainer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-smi) 131px var(--padding-7xs);
+  }
+  .uploadIcon {
+    width: 52px;
+    height: 52px;
+    position: relative;
+  }
+  .discoverGroupsIcon {
+    height: 46px;
+    width: 46px;
+    position: relative;
+  }
+  .discoverGroupsWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs);
+  }
+  .createGroupsIcon {
+    height: 46px;
+    width: 46px;
+    position: relative;
+  }
+  .createGroupsWrapper,
+  .uploadParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .createGroupsWrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-10xs);
+  }
+  .uploadParent {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-lg);
+  }
+  .frameContainer {
+    align-self: stretch;
+    gap: 69px;
+  }
+  .frameContainer,
+  .frameGroup,
+  .frameWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameGroup {
+    align-self: stretch;
+    gap: 69.1px;
+  }
+  .frameWrapper {
+    width: 52px;
+    padding: 170px 0 0;
+    box-sizing: border-box;
+  }
+  .popular,
+  .viewAll {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+  }
+  .popular {
+    color: inherit;
+    min-width: 72px;
+  }
+  .viewAll {
+    font-size: var(--authore-name-size);
+    font-family: var(--authore-name);
+    color: var(--filter-text);
+    text-align: left;
+    min-width: 59px;
+  }
+  .viewAllButton {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs);
+    background-color: #f3ece6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  .viewAllButton:hover {
+    background-color: #d9d4cc;
+  }
+  .spacerIcon,
+  .spacerIcon1 {
+    height: 39px;
+    width: 39px;
+    position: relative;
+    border-radius: var(--br-81xl);
+    min-height: 39px;
+  }
+  .viewAllLayout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+  }
+  .booksCard,
+  .discovr,
+  .discovrWrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .discovr {
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .booksCard,
+  .discovrWrapper {
+    width: 834px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 33px;
+    box-sizing: border-box;
+  }
+  .booksCard {
+    width: 833px;
+    overflow-x: auto;
+    padding: 8.5px 0;
+    gap: 13px;
+    z-index: 1;
+  }
+  .image21 {
+    align-self: stretch;
+    width: 200px;
+    position: absolute;
+    margin: 0 !important;
+    right: -25px;
+    bottom: -151px;
+    border-radius: var(--br-8xs);
+  }
+  .upcomingEventsFrom {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .frameWrapper1,
+  .image21Parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .image21Parent {
+    position: relative;
+  }
+  .frameWrapper1 {
+    padding: 0 var(--padding-9xs);
+    box-sizing: border-box;
+  }
+  .vectorIcon1 {
+    height: 25px;
+    width: 13.8px;
+    position: relative;
+  }
+  .eventCard,
+  .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 1;
+  }
+  .left {
+    height: 46px;
+    width: 46px;
+    margin: 0 !important;
+    position: absolute;
+    top: 123px;
+    left: 777px;
+    box-shadow: -3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+    background-color: #d9d9d9;
+    padding: 10.5px var(--padding-base);
+    box-sizing: border-box;
+  }
+  .eventCard {
+    align-self: stretch;
+    overflow: hidden;
+    position: relative;
+    gap: var(--gap-mini);
+  }
+  .booksCardParent,
+  .frameParent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frameParent2 {
+    align-self: stretch;
+    gap: 16px;
+  }
+  .booksCardParent {
+    flex: 1;
+    gap: 35px;
+  }
+  .discoverBookClubs {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+  }
+  .seeAll {
+    text-decoration: none;
+    position: relative;
+    font-size: var(--authore-name-size);
+    color: var(--color-darkslategray-100);
+    display: inline-block;
+    min-width: 50px;
+  }
+  .discoverBookClubsParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 36px;
+  }
+  .discoverClub,
+  .discoverGroup {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .discoverClub {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-mini);
+    background-color: var(--color-white);
+    padding: var(--padding-xl) var(--padding-8xs) 19.9px 15px;
+    gap: 11px;
+  }
+  .newlyReleased1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .newlyReleased {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs) 0;
+  }
+  .image25Icon {
+    align-self: stretch;
+    flex: 1;
+  
+    border-radius: var(--br-mini);
+    
+    overflow: hidden;
+    
+    object-fit: cover;
+    width: 150px; /* Set width to 50px */
+    
+  }
+  .newlyReleasedParent {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 2px;
+  }
+  .onbiCutThe {
+    position: relative;
+    font-weight: 600;
+  }
+  .title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs) 0;
+  }
+  .loremIpsumDolor {
+    align-self: stretch;
+    position: relative;
+  }
+  .description {
+    align-self: stretch;
+    align-items: flex-start;
+    font-size: 12px;
+    color: #202020;
+  }
+  .description,
+  .frameParent4,
+  .frameWrapper3,
+  .titleParent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .titleParent {
+    width: 304px;
+    margin: 0 !important;
+    position: absolute;
+    top: 246px;
+    left: -7px;
+    align-items: flex-start;
+    padding: 0 var(--padding-8xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-lgi);
+  }
+  .frameParent4,
+  .frameWrapper3 {
+    align-self: stretch;
+  }
+  .frameParent4 {
+    flex: 1;
+    align-items: flex-end;
+    padding: 0;
+    position: relative;
+    gap: 7px;
+  }
+  .frameWrapper3 {
+    margin-top: -382px;
+    align-items: flex-start;
+    padding: 14px var(--padding-3xs) var(--padding-3xs);
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
+  .count,
+  .pages {
+    position: relative;
+  }
+  .count {
+    font-weight: 600;
+    display: inline-block;
+    min-width: 29px;
+  }
+  .pages {
+    align-self: stretch;
+    font-size: var(--font-size-5xs);
+    font-weight: 300;
+  }
+  .details {
+    width: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .div,
+  .rating {
+    position: relative;
+  }
+  .div {
+    font-weight: 600;
+    display: inline-block;
+    min-width: 42px;
+  }
+  .rating {
+    align-self: stretch;
+    font-size: var(--font-size-5xs);
+    font-weight: 300;
+    text-align: center;
+  }
+  .details1 {
+    width: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .downloads,
+  .k {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 42px;
+  }
+  .downloads {
+    font-size: var(--font-size-5xs);
+    font-weight: 300;
+  }
+  .details2,
+  .info,
+  .stats {
+    display: flex;
+    align-items: flex-start;
+  }
+  .details2 {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .info,
+  .stats {
+    flex-direction: row;
+  }
+  .stats {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .info {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 var(--padding-9xs);
+  }
+  .buyNow {
+    position: relative;
+    font-size: var(--font-size-lgi);
+    font-family: var(--authore-name);
+    color: var(--color-darkslategray-100);
+    text-align: left;
+    display: inline-block;
+    min-width: 77px;
+  }
+  .buyNowButton {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs) 69px;
+    background-color: var(--color-linen-200);
+    align-self: stretch;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-mini);
+    flex-direction: row;
+    white-space: nowrap;
+  }
+  .buyNowButton:hover {
+    background-color: var(--color-lightgray-100);
+  }
+  .bookInfo,
+  .buyNowButton,
+  .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .container {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-8xl);
+  }
+  .bookInfo {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 74px 0 73px;
+    font-size: var(--authore-name-size);
+    color: var(--color-black);
+  }
+  .frameParent3 {
+    align-self: stretch;
+    height: 490px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-mini);
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: column;
+    padding: 372px var(--padding-9xs) var(--padding-lgi);
+    box-sizing: border-box;
+    gap: 112px;
+    font-size: var(--font-size-5xl);
+    color: var(--color-darkslategray-100);
+  }
+  .discoverClubParent,
+  .frameParent1,
+  .frameParent3,
+  .frameWrapper2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .discoverClubParent {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-xs);
+  }
+  .frameParent1,
+  .frameWrapper2 {
+    max-width: 100%;
+  }
+  .frameWrapper2 {
+    width: 377px;
+    flex-direction: column;
+    padding: var(--padding-5xs) 0 0;
+    box-sizing: border-box;
+    min-width: 377px;
+    color: var(--filter-text);
+  }
+  .frameParent1 {
+    width: 1241px;
+    flex-direction: row;
+    gap: var(--gap-8xl);
+    font-size: var(--font-size-3xl);
+    color: var(--color-black);
+  }
+  .frameDiv {
+    flex: 1;
+    border-radius: 35px;
+    background-color: #fcf8f5;
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-5xl) var(--padding-5xl) var(--padding-xl);
+    box-sizing: border-box;
+    max-width: calc(100% - 75px);
+  }
+  .frameDiv,
+  .frameParent,
+  .homePage,
+  .homePageInner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameParent {
+    flex: 1;
+    flex-direction: row;
+    gap: var(--gap-4xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--filter-textes-size);
+    color: var(--filter-text);
+    font-family: var(--authore-name);
+  }
+  /* .homePage,
+  .homePageInner {
+    box-sizing: border-box;
+  } */
+  .homePageInner {
+    align-self: stretch;
+    flex-direction: row;
+    /* padding: 0 7px 0 23px; */
+    max-width: 100%;
+  }
+  .homePage {
+    width: 100%;
+    position: relative;
+    background-color: #ede5da;
+    overflow: hidden;
+    flex-direction: column;
+  
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1100px) {
+    .frameWrapper2 {
+      flex: 1;
+    }
+    .frameParent1 {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    .frameWrapper {
+      padding-top: 110px;
+      box-sizing: border-box;
+    }
+    .eventCard {
+      flex-wrap: wrap;
+    }
+    .frameParent3 {
+      padding-top: 242px;
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .frameDiv {
+      padding-top: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .booksCardParent,
+    .frameWrapper2 {
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .frameWrapper {
+      padding-top: var(--padding-52xl);
+      box-sizing: border-box;
+    }
+    .popular {
+      font-size: var(--authore-name-size);
+    }
+    .discovr {
+      flex-wrap: wrap;
+    }
+    .upcomingEventsFrom {
+      font-size: var(--font-size-lg);
+    }
+    .booksCardParent {
+      gap: 17px;
+    }
+    .discoverBookClubs {
+      font-size: var(--font-size-lg);
+    }
+    .discoverBookClubsParent {
+      flex-wrap: wrap;
+      gap: var(--gap-lg);
+    }
+    .newlyReleased1 {
+      font-size: var(--font-size-lgi);
+    }
+    .bookInfo {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .frameParent3 {
+      gap: 56px;
+      padding-top: 157px;
+      box-sizing: border-box;
+    }
+  }
+  

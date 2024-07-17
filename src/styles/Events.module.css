@@ -1,0 +1,103 @@
+.parisReadersSummit {
+    margin: 0;
+    font-size: var(--font-size-3xl);
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .aratKiloAberhot,
+  .lt630lt,
+  .parisReadersSummit {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .eventLocation,
+  .groupIcon {
+    position: absolute;
+    margin: 0 !important;
+  }
+  .eventLocation {
+    width: 215px;
+    top: 205px;
+    left: 17px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 6px 7px;
+  }
+  .groupIcon {
+    width: 5.42%;
+    height: 6.88%;
+    top: 75.31%;
+    right: 18.51%;
+    bottom: 17.81%;
+    left: 76.07%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .august,
+  .eventDay {
+    align-self: stretch;
+    position: relative;
+  }
+  .august {
+    margin: 0;
+    font-size: var(--font-size-5xl);
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    display: inline-block;
+    min-width: 87px;
+  }
+  .days,
+  .events {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .days {
+    width: 87px;
+    margin: 0 !important;
+    position: absolute;
+    top: 50px;
+    left: 17px;
+    align-items: center;
+    font-size: var(--font-size-41xl);
+  }
+  .events {
+    height: 320px;
+    width: 308px;
+    background-color: var(--color-lightsteelblue-100);
+    align-items: flex-start;
+    padding: var(--padding-31xl) var(--padding-38xl) var(--padding-13xl)
+      var(--padding-mid);
+    box-sizing: border-box;
+    position: relative;
+    gap: var(--gap-54xl);
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-darkslategray-100);
+    font-family: var(--authore-name);
+  }
+  @media screen and (max-width: 1025px) {
+    .eventDay {
+      font-size: var(--font-size-29xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .parisReadersSummit {
+      font-size: var(--font-size-lg);
+    }
+    .eventDay {
+      font-size: var(--font-size-17xl);
+    }
+    .august {
+      font-size: var(--font-size-lgi);
+    }
+  }
+  

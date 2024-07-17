@@ -1,0 +1,111 @@
+.welcomeBack {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .welcomeBackWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-17xl) var(--padding-3xs);
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-37xl);
+  }
+  .fullName {
+    position: relative;
+    display: inline-block;
+    min-width: 94px;
+  }
+  .fullNameWrapper {
+    align-self: stretch;
+    border-radius: var(--br-mini);
+    background-color: var(--color-whitesmoke-100);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xl);
+  }
+  .password {
+    position: relative;
+    display: inline-block;
+    min-width: 93px;
+  }
+  .frameGroup,
+  .passwordWrapper {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .passwordWrapper {
+    border-radius: var(--br-mini);
+    background-color: var(--color-whitesmoke-100);
+    flex-direction: row;
+    padding: var(--padding-5xl);
+  }
+  .frameGroup {
+    flex-direction: column;
+    gap: var(--gap-5xl);
+    color: var(--text-subtitle);
+  }
+  .loginUp {
+    position: relative;
+    display: inline-block;
+    min-width: 82px;
+  }
+  .loginUpWrapper {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-mini);
+    background-color: var(--color-whitesmoke-200);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-sm-5) var(--padding-xs);
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  .frameParent,
+  .frameWrapper {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+  }
+  .frameWrapper {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 var(--padding-smi);
+  }
+  .frameParent {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 750px) {
+    .welcomeBack {
+      font-size: var(--font-size-26xl);
+    }
+    .frameParent {
+      gap: var(--gap-xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .welcomeBack {
+      font-size: var(--font-size-15xl);
+    }
+    .fullName,
+    .password {
+      font-size: var(--font-size-base);
+    }
+  }
+  

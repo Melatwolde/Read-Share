@@ -1,0 +1,153 @@
+.image24Icon {
+    width: 269px;
+    height: 269px;
+    position: relative;
+    border-radius: var(--br-8xs) var(--br-8xs) var(--br-11xl) var(--br-11xl);
+    object-fit: cover;
+    z-index: 1;
+  }
+  .theyBothDie {
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--color-black);
+  }
+  .novelByAdam {
+    font-weight: 500;
+  }
+  .novelByAdam,
+  .pages {
+    align-self: stretch;
+    position: relative;
+  }
+  .theyBothDieAtTheEndParent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-11xs);
+    min-width: 112px;
+  }
+  .ratingStars {
+    position: relative;
+    display: inline-block;
+    min-width: 21px;
+  }
+  .ratingIcon {
+    width: 12px;
+    height: 12px;
+    position: relative;
+  }
+  .bookTitleLayout,
+  .rating,
+  .ratingIconLayout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .ratingIconLayout {
+    flex-direction: column;
+    padding: var(--padding-10xs-5) 0 0;
+  }
+  .bookTitleLayout,
+  .rating {
+    flex-direction: row;
+  }
+  .rating {
+    gap: var(--gap-8xs);
+    font-size: var(--font-size-sm);
+    color: var(--color-dimgray-200);
+  }
+  .bookTitleLayout {
+    align-self: stretch;
+    gap: var(--gap-15xl);
+  }
+  .lend {
+    position: relative;
+    display: inline-block;
+    min-width: 36px;
+  }
+  .buyNowButton {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-mini);
+    background-color: var(--color-linen-100);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs);
+  }
+  .buyNow {
+    text-decoration: none;
+    position: relative;
+    font-size: var(--font-size-mini);
+    font-family: var(--authore-name);
+    color: var(--color-darkslategray-100);
+    text-align: left;
+    display: inline-block;
+    min-width: 61px;
+  }
+  .buyNowButton1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs);
+    background-color: var(--color-linen-200);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-mini);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .buyNowButton1:hover {
+    background-color: var(--color-lightgray-100);
+  }
+  .buyNowButtonParent {
+    flex-direction: row;
+    gap: var(--gap-4xl);
+  }
+  .bookDetails,
+  .bookDiscoveryCards,
+  .buyButtonLayout,
+  .buyNowButtonParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .buyButtonLayout {
+    flex-direction: row;
+    padding: 0 var(--padding-18xl);
+    font-size: var(--font-size-mini);
+  }
+  .bookDetails,
+  .bookDiscoveryCards {
+    flex-direction: column;
+  }
+  .bookDetails {
+    align-self: stretch;
+    background-color: var(--color-white);
+    overflow: hidden;
+    padding: var(--padding-52xl) var(--padding-2xs) var(--padding-5xs);
+    gap: var(--gap-29xl);
+    margin-top: -61px;
+  }
+  .bookDiscoveryCards {
+    width: 269px;
+    border-radius: 0 0 var(--br-mini) 0;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-3xs);
+    color: var(--color-darkslategray-100);
+    font-family: var(--authore-name);
+  }
+  @media screen and (max-width: 450px) {
+    .bookTitleLayout {
+      flex-wrap: wrap;
+    }
+    .bookDetails {
+      gap: var(--gap-5xl);
+    }
+  }
+  

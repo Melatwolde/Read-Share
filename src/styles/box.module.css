@@ -1,0 +1,62 @@
+.boxexChild {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+  .lendingOptions,
+  .loremIpsumDolor {
+    align-self: stretch;
+    position: relative;
+  }
+  .lendingOptions {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+  }
+  .loremIpsumDolor {
+    font-size: var(--search-navbar-txt-size);
+  }
+  .boxex,
+  .cardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .cardContent {
+    align-self: stretch;
+    padding: var(--padding-mini) var(--padding-8xs);
+    gap: var(--gap-smi);
+  }
+  .boxex {
+    flex: 1;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: var(--br-xl);
+    background-color: var(--color-aliceblue);
+    padding: var(--padding-mid) var(--padding-smi) 0;
+    box-sizing: border-box;
+    gap: var(--gap-4xl);
+    min-width: 291px;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--color-darkslategray-100);
+    font-family: var(--search-navbar-txt);
+  }
+  @media screen and (max-width: 1000px) {
+    .lendingOptions {
+      font-size: var(--font-size-5xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .lendingOptions {
+      font-size: var(--font-size-lg);
+    }
+    .loremIpsumDolor {
+      font-size: var(--m3-title-medium-size);
+    }
+  }
+  

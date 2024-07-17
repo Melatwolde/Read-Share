@@ -1,0 +1,126 @@
+.letsKnow {
+    position: relative;
+    display: inline-block;
+    min-width: 100px;
+  }
+  .wantToContact {
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-11xl);
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .contactHeading,
+  .separator {
+    position: absolute;
+    margin: 0 !important;
+    left: 20px;
+  }
+  .contactHeading {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .separator {
+    height: 3px;
+    width: 1247px;
+    top: 120px;
+    border-top: 3px solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .writeYourMessage {
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    display: inline-block;
+    max-width: 241.47px;
+  }
+  .messageInput {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xs) 0 0;
+  }
+  .send {
+    position: relative;
+    font-size: var(--m3-title-medium-size);
+    letter-spacing: 0.15px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: var(--m3-title-medium);
+    color: var(--schemes-on-primary);
+    text-align: center;
+    display: inline-block;
+    min-width: 37px;
+    max-height: 32px;
+  }
+  .button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-xs-6) var(--padding-base) var(--padding-smi-4);
+    background-color: var(--color-gold);
+    border-radius: var(--br-5xs);
+    justify-content: flex-start;
+    min-width: 64px;
+  }
+  .button:hover {
+    background-color: var(--color-goldenrod);
+  }
+  .bottom,
+  .button,
+  .contactContent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .bottom {
+    width: 291px;
+    margin: 0 !important;
+    position: absolute;
+    top: 24px;
+    left: 973px;
+    border-radius: var(--br-5xs);
+    background-color: var(
+      --zone-ui-vercel-app-e-commerce-products-1905x845-default-regent-gray-8
+    );
+    justify-content: space-between;
+    padding: 0 0 0 var(--padding-xs);
+    gap: var(--gap-xl);
+    font-size: var(--m3-title-medium-size);
+    color: var(--schemes-secondary);
+    font-family: var(--m3-title-medium);
+  }
+  .contactContent {
+    margin-right: -18px;
+    width: 1356px;
+    height: 92px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-xl);
+    position: relative;
+    gap: 32px 590px;
+    flex-shrink: 0;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--search-navbar-txt-size);
+    color: var(--color-black);
+    font-family: var(--search-navbar-txt);
+  }
+  @media screen and (max-width: 1000px) {
+    .wantToContact {
+      font-size: var(--font-size-5xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .letsKnow {
+      font-size: var(--m3-title-medium-size);
+    }
+    .wantToContact {
+      font-size: var(--font-size-lg);
+    }
+  }
+  

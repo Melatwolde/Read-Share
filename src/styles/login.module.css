@@ -1,0 +1,104 @@
+.frameChild,
+.image53Icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.image53Icon {
+  align-self: stretch;
+  height: 530px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frameChild {
+  margin-left: -166px;
+  width: 193px;
+  height: 172px;
+  filter: blur(250px);
+  border-radius: 50%;
+  background-color: var(--color-orangered);
+}
+.image53Parent {
+  height: 1024px;
+  width: 678px;
+  background-color: var(--color-linen);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-192xl) var(--padding-97xl) var(--padding-264xl)
+    var(--padding-119xl);
+  box-sizing: border-box;
+  gap: var(--gap-124xl);
+  min-width: 678px;
+  max-width: 100%;
+}
+.image53Parent,
+.login,
+.loginInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.loginInner {
+  width: 506px;
+  flex-direction: column;
+  padding: 243px 0 0;
+  box-sizing: border-box;
+  min-width: 506px;
+  max-width: 100%;
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-90xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .image53Parent,
+  .loginInner {
+    flex: 1;
+  }
+  .login {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .image53Parent {
+    padding-top: var(--padding-118xl);
+    padding-bottom: var(--padding-165xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .image53Parent,
+  .loginInner {
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .image53Parent {
+    gap: var(--gap-52xl);
+    padding: var(--padding-70xl) var(--padding-39xl) var(--padding-101xl)
+      var(--padding-50xl);
+  }
+  .loginInner {
+    padding-top: 158px;
+  }
+  .login {
+    gap: var(--gap-35xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .image53Parent {
+    gap: var(--gap-17xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .login {
+    gap: var(--gap-8xl);
+  }
+}
